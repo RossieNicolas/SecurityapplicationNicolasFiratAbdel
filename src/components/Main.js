@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Contact from "./Contact";
 
 export default class Main extends Component{
     render(){
@@ -21,6 +22,7 @@ export default class Main extends Component{
                 </div>
                 }
                 </div>
+                <Route path="contact" exact component={Contact} />
             </Router>)
         }
 }
