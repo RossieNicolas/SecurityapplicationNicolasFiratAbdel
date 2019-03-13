@@ -21,7 +21,7 @@ export default class Main extends Component{
                     <button className="btn btn-outline-secondary" onClick={this.props.auth.login}>Login</button>
                 </div>
                 }
-                <Route path="contact" exact component={Contact} />
+                <Route path="/contact" exact component={Contact} />
                 </div>
 
             </Router>)
