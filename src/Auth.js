@@ -8,7 +8,7 @@ export default class Auth {
     auth0 = new  auth0.WebAuth({
         domain: "dev-h1jx91ic.eu.auth0.com",
         clientID: "DQ2KDU2LUrlToeXBfMrLAjt26VmzrGzh",
-        redirectUri:"https://musing-jang-1930f8.netlify.com/callback",
+        redirectUri:"https://serene-montalcini-f0969b.netlify.com/callback",
         audience: "https://dev-h1jx91ic.eu.auth0.com/userinfo",
         //audience: "http://securityapplicationAPapi.com",
         responseType: "token id_token",
