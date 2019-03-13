@@ -31,7 +31,7 @@ export default class APIform extends Component {
                     client_id: 'DQ2KDU2LUrlToeXBfMrLAjt26VmzrGzh',
                     client_secret: 'xk8WpRum-bx18NJF_dSpn_FT-LunBoHUNa5466AKT8d-fQXgxmbHJye6zgb9D9yA',
                     audience: 'https://dev-h1jx91ic.eu.auth0.com/api/v2/',
-                    redirectUri:"https://serene-montalcini-f0969b.netlify.com/callback"},
+                    redirectUri:"http://localhost:3001/callback"},
             json: true };
 
         request(options, function (error, response, body) {

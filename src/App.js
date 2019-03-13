@@ -13,13 +13,13 @@ class App extends Component {
         case "":
           mainComponent = <Main{...this.props}/>;
           break;
-        case "/contact":
+        case "contact":
           mainComponent = this.props.auth.isAuthenticated() ? <Contact{...this.props}/> : <NotFound/>;
           break;
-        case "/callback":
+        case "callback":
           mainComponent = <Callback/>;
           break;
-        case "/admin":
+        case "admin":
             mainComponent = <Admin/>;
             break;
         default:
