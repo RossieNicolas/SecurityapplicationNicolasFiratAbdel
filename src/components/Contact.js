@@ -28,7 +28,7 @@ export default class Contact extends Component {
                 <iframe title="random website als frame" src="https://theuselessweb.com" height="300" width="400" sandbox="allow-same-origin allow-scripts allow-popups">some random website</iframe>
                 <hr/>
                 <p>Go back to the home page <a href="/" className="btn btn-outline-primary">Click here</a></p>
-                <button className="btn btn-outline-secondary" onClick={this.props.auth.logout}>Logout</button>
+                /*<button className="btn btn-outline-secondary" onClick={this.props.auth.logout}>Logout</button>*/
                 <div className="card-footer text-muted mt-2">
                     Created by Abdel, Nicolas and Firat for AP.
                 </div>
