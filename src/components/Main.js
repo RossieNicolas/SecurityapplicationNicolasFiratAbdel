@@ -10,7 +10,7 @@ export default class Main extends Component{
                 Welcome to the {this.props.name}
             </p>
                 <p>
-                    Contact the admin <Link to="/contact" className="btn btn-outline-primary">Click here</a>
+                    Contact the admin <Link to="/contact" className="btn btn-outline-primary">Click here</Link>
                 </p>
                 {!this.props.auth.isAuthenticated() &&
                 <div>
